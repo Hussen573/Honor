@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+    <!-- ربط ملف CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>موقعي الشخصي</h1>
+        <nav>
+            <button onclick="navigateTo('tasks')">مهامي</button>
+            <button onclick="navigateTo('skills')">الخبرات والمهارات</button>
+            <button onclick="navigateTo('info')">معلوماتي الشخصية</button>
+            <button onclick="navigateTo('contact')">التواصل</button>
+            <button onclick="navigateTo('certificates')">الشهادات</button>
+            <button onclick="navigateTo('achievements')">الإنجازات</button>
+        </nav>
+    </header>
+
+    <div class="content">
+        <section id="tasks">
+            <h2>مهامي</h2>
+            <ul class="task-list">
+                <li><button onclick="showTask('daily')">مهامي اليومية</button></li>
+                <li><button onclick="showTask('personal')">مهامي الشخصية</button></li>
+                <li><button onclick="showTask('work')">مهام العمل</button></li>
+            </ul>
+            <div id="task-content">
+                <!-- سيتم عرض المهام هنا -->
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>الخبرات والمهارات</h2>
+            <p>يمكنك إضافة معلوماتك هنا.</p>
+        </section>
+
+        <section id="info">
+            <h2>معلوماتي الشخصية</h2>
+            <p>أضف معلوماتك الشخصية هنا.</p>
+        </section>
+
+        <section id="contact">
+            <h2>التواصل</h2>
+            <p>أضف وسائل التواصل هنا.</p>
+        </section>
+
+        <section id="certificates">
+            <h2>الشهادات</h2>
+            <p>أضف شهاداتك هنا.</p>
+        </section>
+
+        <section id="achievements">
+            <h2>الإنجازات</h2>
+            <p>أضف إنجازاتك هنا.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>حقوق النشر &copy; 2024. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <!-- ربط ملف JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>

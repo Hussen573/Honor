@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #00bcd4;
+}
+
+.content {
+    padding: 20px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    background: #1f1f1f;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+#task-content {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 10px;
+    text-align: center;
+    color: #aaa;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header nav button {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+header nav button:hover {
+    background-color: #00bcd4;
+    color: #121212;
+}
+
+.task-list button {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.task-list button:hover {
+    background-color: #333;
+}
+
+.task-item {
+    margin-bottom: 10px;
+}
+
+.task-item input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+#edit-form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 5px;
+    color: #121212;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#edit-form button:hover {
+    background-color: #0192a8;
+}
